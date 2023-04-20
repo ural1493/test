@@ -22,7 +22,10 @@ const MockCardItem = {
 
 describe('<Card />', () => {
   test('should render Card with description', async () => {
-    const { findByTestId } = render(<Card card={MockCardItem} />);
+    const { findByTestId } = render(
+      // eslint-disable-next-line @typescript-eslint/no-empty-function
+      <Card card={MockCardItem} onAddToCart={() => {}} />,
+    );
 
     const description = await findByTestId('description');
     expect(description.innerHTML).toBe(MockCardItem.description);
