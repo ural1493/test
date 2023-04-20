@@ -56,7 +56,7 @@ VS Code with EditorConfig and ESLint
 │   ├── pages
 │   │   └── Home
 │   │       ├── index.tsx
-│   │       └── styles.ts
+│   │       └── styled.ts
 │   ├── react-app-env.d.ts
 │   ├── reportWebVitals.ts
 │   ├── setupTests.ts

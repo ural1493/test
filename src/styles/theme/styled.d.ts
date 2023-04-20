@@ -4,5 +4,6 @@ declare module 'styled-components' {
   export interface IDefaultTheme {
     title: string;
     dark: string;
+    boxShadow: string;
   }
 }
